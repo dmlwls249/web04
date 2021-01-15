@@ -1,0 +1,24 @@
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+m.naver.com
+
+열리자 마자의 배율
+initial-scale = 1 or 1/0(100%)
+
+zoom
+maximum-scale = 1.5(150%)
+
+pinch
+minimum-scale=0.5(50%)
+
+user-scalable=yes (zoom and pinch를 다 허락하겠다)
+
+apple.com
+
+사용자 의도하지 않은 이벤트 함부로 작성ㄴㄴ
+
+equivalent(동등한)
+브라우저 사용자 
+
+id 유일무이한 이름
+class 하나 또는 하나 이상의 공통적인 스타일 적용

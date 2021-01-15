@@ -1,0 +1,72 @@
+vertical-align:top
+vertical-align:middle
+vertical-align:bottom
+
+vertical-align을 적용안해주면
+vertical-align:bottom;이 기본으로 나옴
+
+
+text-indent
+문단의 첫머리를 들여쓰기
+px,% 등의 단위로 사용 블록요소에만 사용가능
+
+.dva{text-indent:2%;}
+<p>안들여</p>
+<p class="dva">들여쓰기</p>
+
+안들여
+  들여쓰기
+
+text-transform
+대소문자를 변경 uppercase(대문자),lowercase(소문자),capitalize(첫글자만 대문자)
+속성자{text-transform:capitalize;}
+
+text-decoration
+underline(밑줄),overline(윗줄),line-through(가운데 줄),none(밑줄 제거)
+ex)
+a:link{color:black; text-decoration:none;}
+<a href="https://www.naver.com">네이버</a>
+
+
+letter-spacing 글자와 글자간의 간격 부여 px,%등
+속성자{letter-spacing:10px;}
+
+
+line-height 줄에 간격을 부여 px,%등
+속성자{line-height:180%;}
+
+
+background-color 배경색 지정
+background-image 배경을 이미지로 지정
+background-repeat 배경으로 이미지를 어떻게 반복시킬지 정함
+background-position:가로위치 세로위치; 배경 이미지ㅡ이 위치를 지정 
+background-attachment 배경이미지 고정or스크롤 지정
+background 위의 다섯 가지 속성을 한 줄로 표기한다.
+
+background-color:#fff;
+background-image:url("dva.jpg");
+background-repeat:no-repeat;
+background-position:right bottom;
+background-attachment:fixed;
+
+p{background:#fff url("images/dva.jpg") none right bottom scroll;}
+
+table{
+background-image:url("dva.jpg");
+background-repeat:no-repeat;
+text-align:center;
+font:50px "나눔명조";
+color:white;
+}
+
+<table width="1600" height="900">
+	<tr>
+		<td>
+			디바
+		</td>
+	</tr>
+</table>
+
+
+
+
